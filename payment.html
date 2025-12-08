@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Options</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <body class="bg-page">
+
+
+<h1 class="menu-title">💳 Choose Payment Method</h1>
+
+<div class="payment-box">
+
+    <button type="button" class="pay-btn" onclick="placeOrder()">
+        💵 Cash on Delivery
+    </button>
+
+    <button type="button" class="pay-btn" onclick="placeOrder()">
+        📱 UPI (Google Pay / PhonePe) on Doorstep
+    </button>
+
+    <button type="button" class="pay-btn" onclick="placeOrder()">
+        💳 Debit / Credit Card on Doorstep
+    </button>
+
+</div>
+
+<script>
+function placeOrder() {
+    window.location.href = "thankyou.html";
+}
+</script>
+
+</body>
+</html>

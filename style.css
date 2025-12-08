@@ -1,0 +1,221 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+
+.bg-page {
+    background-image: url("https://images.unsplash.com/photo-1690983325598-dd23fcf8f835?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.menu,
+.checkout,
+.payment-box {
+    background-color: rgba(255, 247, 242, 0.95);
+    border-radius: 12px;
+    padding: 25px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3b2f2f;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.hero-image {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: brown;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+
+.menu-title {
+    text-align: center;
+    color: brown;
+    margin-top: 30px;
+}
+
+.menu {
+    width: 50%;
+    margin: 30px auto;
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.price-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-item button {
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+.qty {
+    width: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.checkout {
+    width: 40%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    background-color: #fff7f2;
+    text-align: center;
+}
+
+.checkout h2 {
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.checkout p {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.checkout-btn {
+    margin-top: 10px;
+}
+
+
+.back {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.back a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+.payment-box {
+    width: 40%;
+    margin: 80px auto;
+    padding: 30px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff7f2;
+}
+
+.pay-btn {
+    width: 80%;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+
+.thankyou-box {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.thankyou-box h1 {
+    color: brown;
+    margin-bottom: 15px;
+}
+
+.thankyou-box p {
+    font-size: 18px;
+    margin: 8px 0;
+}
+.bg-image {
+    background-image: url("https://images.unsplash.com/photo-1690983325598-dd23fcf8f835?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.center-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
