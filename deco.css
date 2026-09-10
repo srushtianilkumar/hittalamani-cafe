@@ -1,0 +1,24 @@
+
+.cast-list {
+    width: 60%;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.cast-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    font-size: 18px;
+}
+
+.cast-list span:first-child {
+    text-align: left;
+}
+
+.cast-list span:last-child {
+    text-align: right;
+    font-weight: bold;
+}
